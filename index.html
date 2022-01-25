@@ -1,0 +1,385 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/tailwind.css" rel="stylesheet" />
+    <script
+      src="https://kit.fontawesome.com/1cbb8019be.js"
+      crossorigin="anonymous"
+    ></script>
+    <title>Ozarru Tech</title>
+  </head>
+  <body class="bg-body text-white font-poppins pb-12">
+    <!-- Navigation --------------------------------------------------------------------------------->
+    <header class="py-6">
+      <div
+        class="container flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+      >
+        <div class="text-lg flex items-center gap-2 font-bold">
+          <img class="h-10" src="/assets/o.svg" alt="Ozarru Tech Logo" />
+          Ozarru Tech
+        </div>
+        <div class="hidden md:flex space-x-12 items-center">
+          <a href="#index.html" class="text-selected-text">Home</a>
+          <a href="#works">My works</a>
+          <a href="#about">About me</a>
+          <a
+            class="bg-gradient-to-tr from-pink-700 to-yellow-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
+            href="#hire"
+            >Hire me</a
+          >
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero section --------------------------------------------------------------------------------->
+    <div
+      class="container mt-16 flex justify-between items-center mx-auto px-8 md:px-14 lg:px-24 w-full"
+    >
+      <div class="flex flex-wrap md:flex-nowrap">
+        <nav
+          class="lg:inline-block lg:mr-24 lg:w-4 fixed left-percentage hidden xl:block"
+        >
+          <div
+            class="absolute left-50 transform -translate-x-1/2 space-y-6 mt-36"
+          >
+            <a
+              href="#"
+              class="nav-dot selected-circle block w-7 h-7 rounded-full border-4 border-nav bg-body"
+              ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >Home</span
+              ></a
+            >
+            <a
+              href="#works"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+              ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >My works</span
+              ></a
+            >
+            <a
+              href="#about"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+              ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >About me</span
+              ></a
+            >
+            <a
+              href="#hire"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+              ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >Hire me</span
+              ></a
+            >
+          </div>
+        </nav>
+
+        <div
+          class="flex flex-wrap lg:ml-20 justify-start max-w-xl mt-0 md:my-36"
+        >
+          <!-- <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl">
+            Building <br />
+            beautiful web experiences.
+          </h1> -->
+          <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl">
+            A better living through<br />
+            <span
+              class="text-transparent bg-clip-text bg-gradient-to-tr from-pink-700 to-yellow-500"
+              >design & code</span
+            >.
+          </h1>
+          <!-- <h1 class="font-bold text-5xl md:text-6xl lg:text-7xl">
+            My stack, your delight.
+          </h1> -->
+        </div>
+        <img
+          src="assets/pc.png"
+          alt="Pc"
+          class="h-30 md:absolute mt-6 md:mt-10 right-20 -z-1 rounded-md shadow-xl my-10 sm:my-12"
+        />
+      </div>
+    </div>
+
+    <!-- My works --------------------------------------------------------------------------------->
+    <div
+      class="container mt-32 mx-auto px-8 md:px-14 lg:px-24 w-full"
+      id="works"
+    >
+      <h2 class="text-3xl font-bold">My works</h2>
+
+      <p class="section-paragraph">
+        I have worked on a couple of logo design and brand identity projects for
+        my clients. I have also done some web and Mobile app design and
+        development.
+      </p>
+      <section class="w-full my-16 pt-2">
+        <h3 class="text-xl font-bold">Design works</h3>
+        <hr class="hr mt-3" />
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6">
+          <div>
+              <img class="rounded-md" src="assets/works/dash.png" alt="dash Logo" />
+              <p class="section-paragraph">
+                <h3 class="text-l font-bold">Dash Logo</h3>
+                Modern & minimalist Logo design for a delivery app.
+              </p>
+            
+           
+          </div>
+          <div>
+            <img class="rounded-md" src="assets/works/uni.png" alt="unity Logo" />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold">Unity Logo</h3>
+              Modern Logo design for an inveenttory management app.
+            </p>
+          </div>
+          <div>
+           
+            <img class="rounded-md" src="assets/works/dx.png" alt="hawzur Logo" />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold">Dxter Logo</h3>
+              Modern Logo design for a utility app.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full my-16 pt-2">
+        <h3 class="text-xl font-bold">Dev works</h3>
+        <hr class="hr mt-3" />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.app.pharmacy_app"
+            target="blank"
+          >
+            <img
+              class="rounded-md"
+              src="assets/works/pg.png"
+              alt="Pharma app"
+            />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold">Pharma Garde TG</h3>
+              A cross-platform pharmacy app built with Dart and Flutter. It
+              gives user the list of available pharmacies at all times of the
+              day, and with google map integrratedd in it, it also gives the
+              directions to the said pharmacies.
+            </p>
+          </a>
+          <a href="#">
+
+            <img class="rounded-md" src="assets/works/rx.jpg" alt="rx app" />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold">Rx Manager</h3>
+              A cross-platform pharmacy management app built with Dart and Flutter. It
+             is still under construction.
+            </p>
+          </a>
+          <a href="https://hippocampe-international.com/" target="blank">
+            <img src="assets/works/hi.png" alt="hippocampe website" />
+            <p class="section-paragraph ">
+              <h3 class="text-l font-bold">Hippocampe Intl.</h3>
+              A minimalist website for a shipping and logistis company.
+            </p>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <!-- About me --------------------------------------------------------------------------------->
+    <div
+      class="container mt-32 mx-auto px-8 md:px-14 lg:px-24 w-full"
+      id="works"
+    >
+      <h2 class="text-3xl font-bold" id="about">About me</h2>
+      <div class="container grid md:grid-cols-2 gap-2">
+        <div>
+          <img src="assets/me.jpg" alt="Ozarru" class="rounded-md shadow-xl my-10" width="500" />
+          <a
+            class="mt-6 bg-gradient-to-tr from-pink-700 to-yellow-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
+            href="#hire"
+            >Learn more</a
+          >
+        </div>
+        <!-- My bio ------------------------------------------------------------------------------->
+        <div>
+          <p class="section-paragraph text-gray-400">
+            My name is <b>Joseph Anyim</b>  <code>{codename : Ozarru}</code>.
+            <br />
+            I am a developer, designer and copywriter who's aim is to add value
+            to you and /or your company with my skills. I started writing
+            computer programs in 2014 and ever since, I haven't stopped.
+             <br />
+            My forte are copy writing and web/cross-platform mobile app
+            development. One of my goals in life is to use my skills to bring to
+            life projects that will impact lives positively.
+            <br />
+            <br />
+            I do my best to offer my clients what they really desire, while
+            taking into consideration best pratices and pragmatism. I believe it
+            is very impotant to be on the same page with my clients, as to get a
+            satisfying result in the end for the both of us. I often like to
+            communicate with my clients as the project advances so as to keep
+            them in the clear and make any neccssary adjustment in time. 
+            <br />
+            <br />
+            My portfolio is quite diverse as it contains everything
+            from logo design to websites, mobile apps and coontent writting; some I
+            simply created to test my skills, and others I did to solve real world problems.
+            I will let my work speak for itself, so feel to go through it.
+          </p>
+          <h3 class="mb- text-lg font-bold">Work experience</h3>
+          <ul class="text-gray-400">
+            <li>* 2 years of copy writing and content writing</li>
+            <li>
+              * 2 years in backend technologies such as Node.js and Django
+            </li>
+            <li>* 3 years of web/mobile app design and development</li>
+          </ul>
+        </div>
+      </div>
+
+      <!-- My stack ---------------------------------------------------------------------->
+      <div class="mt-20">
+        <h3 class="my-6 text-3xl font-bold">My desing & tech stack</h3>
+        <div class="grid md:grid-cols-2 lg:grid-cols-4">
+          <div class="container">
+            <h4 class="text-xl">
+              <i class="fas fa-drafting-compass text-3xl text-gray-400"></i> Design
+            </h4>
+            <hr class="hr mt-3" />
+            <ul class="section-paragraph text-gray-400">
+              <li>Figma</li>
+              <li>InDesign</li>
+              <li>Illustrator</li>
+            </ul>
+          </div>
+          <div class="container">
+            <h4 class="text-lg">
+              <i class="fas fa-mobile text-3xl text-gray-400"></i> Frontend
+            </h4>
+            <hr class="hr mt-3" />
+            <ul class="section-paragraph">
+              <li>Flutter</li>
+              <li>React/Next.JS</li>
+              <li>HTML, CSS JavaScript</li>
+            </ul>
+          </div>
+          <div class="container">
+            <h4 class="text-lg">
+              <i class="fas fa-server text-3xl text-gray-400"></i> Backend
+            </h4>
+            <hr class="hr mt-3" />
+            <ul class="section-paragraph">
+              <li>Python</li>
+              <li>Node.JS</li>
+              <li>Dart Server</li>
+            </ul>
+          </div>
+          <div class="container">
+            <h4 class="text-lg">
+              <i class="fas fa-database text-3xl text-gray-400"></i> Database
+            </h4>
+            <hr class="hr mt-3" />
+            <ul class="section-paragraph">
+              <li>SQL</li>
+              <li>NoSQL</li>
+              <li>GraphQL</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hire me --------------------------------------------------------------------------------->
+    <div
+      class="container mt-32 mx-auto px-8 md:px-14 lg:px-24 w-full"
+      id="hire"
+    >
+      <section class="w-full">
+        <h2 class="text-3xl font-bold">Hire me</h2>
+        <p class="section-paragraph">
+          Contact me anytime through the form below and/or my social media
+          handles.
+        </p>
+        <div class="w-full mt-24 grid md:grid-cols-2 gap-8 md:gap-12 lg:gap-32">
+          <div class="space-y-12">
+            <form action="mailman.php" method="post">
+              <div>
+                <label class="text-white block my-6 text-xl font-bold"
+                  >Name</label
+                >
+                <input
+                  class="w-full border text-black bg-input px-4 py-4"
+                  type="text"
+                  name="name"
+                  required
+                />
+              </div>
+              <div>
+                <label class="text-white block my-6 text-xl font-bold"
+                  >Email</label
+                >
+                <input
+                  class="w-full border text-black bg-input px-4 py-4"
+                  type="email"
+                  name="email"
+                  required
+                />
+              </div>
+              <div>
+                <label class="text-white block my-6 text-xl font-bold"
+                  >Message</label
+                >
+                <textarea
+                  class="w-full border text-black bg-input px-4 py-4 h-60 "
+                  type="text"
+                  name="message"
+                  required
+                ></textarea>
+              </div>
+              <button
+                class="mt-6 bg-gradient-to-tr from-pink-700 to-yellow-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
+                type="submit"
+                name="submit"
+              >
+                Send message
+              </button>
+            </form>
+          </div>
+          <div class="mt-12">
+            <p>
+              <a href="tel:+228-97-99-86-21">(+228) 97 99 86 21</a>
+            </p>
+            <p class="mt-10">
+              <a href="tel:+228-97-99-86-21">(+234) 0807 611 8894</a>
+            </p>
+            <p class="mt-10">
+              <a href="mailto:joeyanyim@gmail.com">joeyanyim@gmail.com</a>
+            </p>
+
+            <div class="flex mt-12 space-x-10">
+              <a
+                href="https://www.linkedin.com/in/joseph-anyim-495190223/"
+                target="blank"
+                ><i class="fab fa-linkedin-in text-4xl"></i
+              ></a>
+              <a href="https://github.com/Ozarru" target="blank"
+                ><i class="fab fa-github text-4xl"></i
+              ></a>
+              <a href="https://twitter.com/Joey_Anyim" target="blank"
+                ><i class="fab fa-twitter text-4xl"></i
+              ></a>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+    <!-- Footer --------------------------------------------------------------------------------->
+    <div class="container mt-12 text-sm text-center text-gray-700">
+      &copy; Ozarru Tech 2022 all rights reserved <br />
+      <small>Terms of use | Privacy policy</small>
+    </div>
+  </body>
+</html>

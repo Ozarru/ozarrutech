@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="/css/tailwind.css" rel="stylesheet" />
+    <title>Ozarru Tech</title>
+  </head>
+  <body class="bg-body text-white font-poppins pb-12">
+    <header class="py-6">
+      <div
+        class="
+          container
+          flex
+          justify-between
+          items-center
+          mx-auto
+          px-8
+          md:px-14
+          lg:px-24
+          w-full
+        "
+      >
+        <div class="text-lg flex items-center gap-2 font-bold">
+          <img class="h-10" src="/assets/o.svg" alt="Ozarru Tech Logo" />
+          Ozarru Tech
+        </div>
+        <div class="hidden md:flex space-x-12 items-center">
+          <a href="#" class="text-selected-text">Home</a>
+          <a href="#works">My works</a>
+          <a href="#about">About me</a>
+          <a
+            class="
+              inline-block
+              px-4
+              py-2
+              rounded-md
+              shadow-lg
+              tracking-wide
+              bg-theme
+              text-white
+            "
+            href="#hire"
+            >Hire me</a
+          >
+        </div>
+        <div class="md:hidden">
+          <img class="h-6 text-white" src="/assets/bluebars.svg" alt="Menu" />
+        </div>
+      </div>
+    </header>
+
+    <div class="p-8 py-12 max-w-md mx-auto sm:max-w-xl">
+      <img
+        class="rounded-full shadow-xl my-10 sm:my-12"
+        src="/assets/jo.jpeg"
+        alt="Ozarru"
+      />
+      <h1 class="mt-6 text-2xl text-gray-200 font-bold sm:mt-8 sm:text-4xl">
+        <!-- Doing more than just design and development for my clients.
+        <br />Seizing the day isn't just enough, <br /> building the future today, is -->
+        Building beautiful and pragamatic web and app experiences through
+        carefully crafted code. <br />
+        <span class="text-red-700">Let's build the future today.</span>
+      </h1>
+
+      <p class="mt-2 text-gray-100 sm:mt-4 sm:text-xl">
+        I am freelance software developer with over 3 years of experience in
+        Ui/Ux and backend tecknologies.
+      </p>
+      <div class="mt-4 sm:mt-6">
+        <a
+          class="
+            inline-block
+            px-4
+            py-2
+            rounded-md
+            shadow-lg
+            tracking-wide
+            bg-red-700
+            text-white
+          "
+          href="#"
+          >View my works</a
+        >
+      </div>
+    </div>
+  </body>
+</html>
