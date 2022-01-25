@@ -5,6 +5,7 @@
 html,
 body {
   scroll-behavior: smooth;
+  box-sizing: borer-box;
 }
 .hr {
   background: linear-gradient(to right, #008cff, #00ff0d);
