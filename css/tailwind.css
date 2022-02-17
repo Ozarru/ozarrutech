@@ -3,7 +3,7 @@
 @tailwind utilities;
 
 html,
-body, .bg-body {
+body {
   scroll-behavior: smooth;
   box-sizing: borer-box;
   background: #152028,
