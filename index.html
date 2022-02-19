@@ -24,8 +24,8 @@
         </div>
         <div class="hidden md:flex space-x-12 items-center">
           <a href="#index.html" class="text-selected-text">Home</a>
-          <a href="#works">My works</a>
           <a href="#about">About me</a>
+          <a href="#works">My works</a>
           <a
             class="bg-gradient-to-tr from-pink-700 to-yellow-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
             href="#hire"
@@ -54,17 +54,17 @@
               ></a
             >
             <a
-              href="#works"
-              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
-              ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
-                >My works</span
-              ></a
-            >
-            <a
               href="#about"
               class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
               ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
                 >About me</span
+              ></a
+            >
+            <a
+              href="#works"
+              class="nav-dot block w-7 h-7 rounded-full border-4 border-nav bg-body"
+              ><span class="bg-black px-2 py-1 rounded-md ml-10 opacity-0"
+                >My works</span
               ></a
             >
             <a
@@ -96,135 +96,63 @@
       </div>
     </div>
 
-    <!-- My works --------------------------------------------------------------------------------->
-    <div
-      class="container mt-32 mx-auto px-8 md:px-14 lg:px-24 w-full"
-      id="works"
-    >
-      <h2 class="text-3xl font-bold">My works</h2>
-
-      <p class="section-paragraph w-8/12">
-        I have worked on a couple of logo design and brand identity projects for
-        my clients. I have also done some web and Mobile app design and
-        development.
-      </p>
-      <section class="w-full my-16 pt-2">
-        <h3 class="text-xl font-bold">Design works</h3>
-        <hr class="hr mt-3" />
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6">
-          <div>
-              <img class="rounded-md" src="assets/works/dash.png" alt="dash Logo" />
-              <p class="section-paragraph">
-                <h3 class="text-l font-bold mt-4">Dash Logo</h3>
-                Modern & minimalist Logo design for a delivery app.
-              </p>
-            
-           
-          </div>
-          <div>
-            <img class="rounded-md" src="assets/works/uni.png" alt="unity Logo" />
-            <p class="section-paragraph">
-              <h3 class="text-l font-bold mt-4">Unity Logo</h3>
-              Modern Logo design for an inventory management app.
-            </p>
-          </div>
-          <div>
-           
-            <img class="rounded-md" src="assets/works/dx.png" alt="hawzur Logo" />
-            <p class="section-paragraph">
-              <h3 class="text-l font-bold mt-4">Dxter Logo</h3>
-              Modern Logo design for a utility app.
-            </p>
-          </div>
-        </div>
-      </section>
-
-      <section class="w-full my-16 pt-2">
-        <h3 class="text-xl font-bold">Dev works</h3>
-        <hr class="hr mt-3" />
-
-        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6">
-          <a
-            href="https://play.google.com/store/apps/details?id=com.app.pharmacy_app"
-            target="blank"
-          >
-            <img
-              class="rounded-md"
-              src="assets/works/pg.png"
-              alt="Pharma app"
-            />
-            <p class="section-paragraph">
-              <h3 class="text-l font-bold mt-4">Pharma Garde TG</h3>
-              A cross-platform pharmacy app built with Dart and Flutter. It
-              gives users the list of available pharmacies at all the times of the
-              day, and with google map integrated in it, it also gives users
-              directions to the said pharmacies.
-            </p>
-          </a>
-          <a href="#">
-
-            <img class="rounded-md" src="assets/works/rx.jpg" alt="rx app" />
-            <p class="section-paragraph">
-              <h3 class="text-l font-bold mt-4">Rx Manager</h3>
-              A cross-platform pharmacy management app built with Dart and Flutter. It
-             is still in the making.
-            </p>
-          </a>
-          <a href="https://hippocampe-international.com/" target="blank">
-            <img src="assets/works/hi.png" alt="hippocampe website" />
-            <p class="section-paragraph ">
-              <h3 class="text-l font-bold mt-4">Hippocampe Intl.</h3>
-              A minimalist website for a shipping and logistics company.
-            </p>
-          </a>
-        </div>
-      </section>
-    </div>
-
+    
     <!-- About me --------------------------------------------------------------------------------->
     <div
       class="container mt-32 mx-auto px-8 md:px-14 lg:px-24 w-full"
-      id="works"
+      id="about"
     >
       <h2 class="text-3xl font-bold" id="about">About me</h2>
       <div class="container grid md:grid-cols-2 gap-2">
-        <div>
+        <div >
           <img src="assets/me.jpg" alt="Ozarru" class="rounded-md shadow-xl my-10" width="500" />
-          <a
-            class="mt-6 bg-gradient-to-tr from-pink-700 to-yellow-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
-            href="#hire"
-            >Learn more</a
+          <div class="grid grid-cols-2 justify-between gap-36 mr-8">
+
+            <a
+              class="mt-2 bg-gradient-to-tr from-pink-700 to-yellow-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
+              href="#hire"
+              >Learn more</a
+            >
+            <a
+            class="mt-2 bg-gradient-to-tr from-blue-700 to-green-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white"
+            href="#works"
+            >My works</a
           >
+          </div>
         </div>
         <!-- My bio ------------------------------------------------------------------------------->
         <div>
-          <p class="section-paragraph text-gray-300">
+          <p class="section-paragraph text-gray-300 mt-8">
             My name is <b>Joseph Anyim</b>  <code>{"codename" : "Ozarru"}</code>.
             <br />
-            I am a developer, designer, copywriter and translator who's aim is to add value
-            to you and /or your company with my skills. I started writing
-            computer programs in 2014 and ever since, I haven't stopped. 
-            I grew up in a bilingual home, so i am a native French and English speaker. 
-            This language dexterity of mine comes in handy in the internationalisation of apps and websites. 
+            I am a developer, designer, copywriter and translator who wil gladly use his skills to bring to life your aspirations. 
+            I have been writing computer programs since 2014, at first as a hobbyist and now as a professional. 
+            I grew up in a bilingual home, making me a fluent native speaker of French and English. 
+            As a language nerd, I did acquire a couple more languages, tho my fluency isn't as high as the aforementioned ones.  
+            Nevertheless, this language polyvalence of mine comes in pretty handy when it's time to internationalise mobile apps and websites. 
+             <br />
              <br />
             My forte are translation, copy writing and web/cross-platform mobile app
-            development. My ultimate goal in life is to use my skills to impact lives positively.
-            <br />
-            <br />
+            development. My raison d'être, is to use my talent and skills to impact lives positively.
             I do my best to offer my clients what they really desire, while
-            taking into consideration best pratices and pragmatism. I believe it
-            is very impotant to be on the same page with my clients, as to get a
-            satisfying result in the end for the both of us. I often like to
-            communicate with my clients as the project advances so as to keep
-            them in the clear and make any neccssary adjustment in time. 
+            taking into consideration best pratices set by the industry standard.
             <br />
+            <!-- <br />
+            I do my best to offer my clients what they really desire, while
+            taking into consideration best pratices set by the industry. I believe it
+            is very impotant to be on the same page with my clients, so to get a
+            satisfying result. I often like to
+            communicate with my clients as the project advances, this is to keep
+            them in the clear and ensure that all neccessary adjustment are made in time. 
+            <br /> -->
             <br />
             My portfolio, though not a reflection of all my skills, is quite diverse, as it contains everything
             from logo design to websites and mobile apps; some I
             simply created to test my skills, and others I did to solve real world problems.
             I will let my work speak for itself, so feel to go through it.
           </p>
-          <h3 class="mb- text-lg font-bold">Work experience</h3>
+         
+          <h3 class="mb- text-lg font-bold my-2">Work experience</h3>
           <ul class="text-gray-300">
             <li> <b>2</b> years of copy writing and content writing</li>
             <li>
@@ -286,6 +214,94 @@
           </div>
         </div>
       </div>
+    </div>
+
+
+    <!-- My works --------------------------------------------------------------------------------->
+    <div
+      class="container mt-32 mx-auto px-8 md:px-14 lg:px-24 w-full"
+      id="works"
+    >
+      <h2 class="text-3xl font-bold">My works</h2>
+
+      <p class="section-paragraph w-8/12">
+        Below are a few of my works. You will see that I have worked on a couple of logo design projects for
+        my clients and also some web and Mobile app design and development.
+      </p>
+      <section class="w-full my-16 pt-2">
+        <h3 class="text-xl font-bold">Design works</h3>
+        <hr class="hr mt-3" />
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6">
+          <div>
+              <img class="rounded-md" src="assets/works/dash.png" alt="dash Logo" />
+              <p class="section-paragraph">
+                <h3 class="text-l font-bold mt-4">Dash Logo</h3>
+                Modern & minimalist Logo design for a delivery app.
+              </p>
+            
+           
+          </div>
+          <div>
+            <img class="rounded-md" src="assets/works/uni.png" alt="unity Logo" />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold mt-4">Unity Logo</h3>
+              Modern Logo design for an inventory management app.
+            </p>
+          </div>
+          <div>
+           
+            <img class="rounded-md" src="assets/works/dx.png" alt="hawzur Logo" />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold mt-4">Dxter Logo</h3>
+              Modern Logo design for a utility app.
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <section class="w-full my-16 pt-2">
+        <h3 class="text-xl font-bold">Dev works</h3>
+        <hr class="hr mt-3" />
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-12 mt-6">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.app.pharmacy_app"
+            target="blank"
+          >
+            <img
+              class="rounded-md"
+              src="assets/works/pg.png"
+              alt="Pharma app"
+            />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold mt-4">Pharma Garde TG</h3>
+              A cross-platform pharmacy app built with Dart and Flutter. It
+              gives users the list of available pharmacies at all the times of the
+              day, and with google map integrated in it, it also gives users
+              directions to the said pharmacies.
+            </p>
+            
+           <button class="mt-2 bg-gradient-to-tr from-blue-700 to-green-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white">See work</button>
+          </a>
+          
+          <div>
+            <img class="rounded-md" src="assets/works/rx.jpg" alt="rx app" />
+            <p class="section-paragraph">
+              <h3 class="text-l font-bold mt-4">Rx Manager</h3>
+              A cross-platform pharmacy management app currently being built with Dart and Flutter.
+            </p>
+          </div>
+          <a href="https://hippocampe-international.com/" target="blank">
+            <img src="assets/works/hi.png" alt="hippocampe website" />
+            <p class="section-paragraph ">
+              <h3 class="text-l font-bold mt-4">Hippocampe Intl.</h3>
+              A minimalist website for a shipping and logistics company.
+            </p>
+            <button class="mt-2 bg-gradient-to-tr from-blue-700 to-green-500 inline-block px-4 py-2 rounded-md shadow-lg tracking-wide bg-theme text-white">See work</button>
+      
+          </a>
+        </div>
+      </section>
     </div>
 
     <!-- Hire me --------------------------------------------------------------------------------->
